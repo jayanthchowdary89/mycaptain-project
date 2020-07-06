@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+cout<<"size of int:"<<sizeof(int);        //c++ program to write size of data types
+cout<<"size of char:"<<sizeof(char);
+cout<<"size of float:"<<sizeof(float);
+cout<<"size of double:"<<sizeof(double);
+return 0;
+}
+
+//product of two numbers
+#include<iostream>
+using namespace std;
+int main ()
+{
+float a,b;
+cout<<"enter two numbers:";
+cin>>a>>b;
+cout<<"product ="<<a*b;
+}
