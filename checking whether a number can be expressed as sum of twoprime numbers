@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int primenumber(int);
+int main ()
+{
+	
+	int n,i;
+	cout<<"enter n value";
+	cin>>n;
+	for(i=2;i<=n/2;i++)
+	{
+		
+		if(primenumber(i)==true)
+		{
+if(primenumber(n-i)==true);
+	{
+	  cout<<"number can be expressed as sum of two primes";
+	  break;
+	}
+		}
+	}		
+return 0;
+
+}
+
+int primenumber(int m)
+{
+	bool prime=true;
+	for(int i=2;i<m;i++)
+	{
+		if(m%i==0)
+		prime=false;
+		break;
+		
+	}
+	return prime;
+	
+}
