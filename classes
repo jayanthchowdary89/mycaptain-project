@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class time{
+	
+	int hours,minutes,second;
+	public:
+		entertime(){
+			cout<<"hours?\t"<<"minutes?\t"<<"second?";
+			cin>>hours>>minutes>>second;
+				
+		}
+		timeformat()
+		{
+			cout<<"the time is="<<hours<<":"<<minutes<<":"<<second<<endl;
+		}
+		timeinsecond()
+		{
+		cout<<minutes*60+hours*3600+second;	
+		}
+};
+int main()
+{
+	time t;
+	t.entertime();
+	t.timeformat();
+	t.timeinsecond();
+	return 0;
+}
